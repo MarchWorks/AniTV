@@ -1,0 +1,63 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webtorrent
+    versions:
+    - 0.112.2
+    - 0.112.3
+    - 0.113.0
+    - 0.114.0
+    - 0.114.1
+    - 0.115.0
+    - 0.115.1
+    - 0.115.2
+    - 0.115.3
+    - 0.115.4
+    - 0.116.0
+    - 0.116.1
+    - 0.116.2
+    - 0.117.0
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: next
+    versions:
+    - 10.0.5
+    - 10.0.6
+    - 10.0.7
+    - 10.0.8
+    - 10.0.9
+    - 10.1.1
+    - 10.1.2
+  - dependency-name: xo
+    versions:
+    - 0.37.1
+    - 0.38.1
+    - 0.38.2
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.3
+  - dependency-name: electron-builder
+    versions:
+    - 22.9.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
