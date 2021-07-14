@@ -119,7 +119,7 @@
     "fs-extra": "^8.0.1",
     "fuzzball": "^1.3.0",
     "got": "^11.1.4",
-    "webtorrent": "^0.107.17",
+    "webtorrent": "^1.2.4",
     "xmldom": "^0.3.0"
   }
 }
